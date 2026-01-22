@@ -1,0 +1,26 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #000;
+    z-index: 9999;
+    transition: transform 0.4s ease-in-out;
+}
+
+.nav-logo {
+    float: left;
+    margin: 10px 5px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    border: 2px solid rgb(255, 223, 81);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.right-nav {
+    float: right;
+    font-size: 18px;
+    color: #333;
+}
