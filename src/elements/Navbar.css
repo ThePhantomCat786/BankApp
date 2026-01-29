@@ -17,9 +17,30 @@
     padding: 5px 10px;
 }
 
-.right-nav {
-    position: relative;
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    top: 0;
+}
+
+.nav-links {
     float: right;
-    font-size: 18px;
-    color: #333;
+    align-items: center;
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    margin: 25px 20px 0 0;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #ee9024;
 }

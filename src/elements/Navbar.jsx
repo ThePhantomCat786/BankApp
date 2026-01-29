@@ -10,11 +10,13 @@ export default function Navbar() {
                 <div className="nav-logo">
                     <Link to="/"><img src="../logo_nobg.png" width="50px" height="50px"></img></Link>
                 </div>
-                <ul className="right-nav">
-                    <li><Link to="/">About</Link></li>
-                    <li><Link to="/">Calculator</Link></li>
-                    <li><Link to="/">Login</Link></li>
-                </ul>
+                <div className="menu">
+                    <ul className="nav-links">
+                        <li><Link to="/">About</Link></li>
+                        <li><Link to="/">Calculator</Link></li>
+                        <li><Link to="/">Login</Link></li>
+                    </ul>
+                </div>
             </nav>
         </header>
     )
