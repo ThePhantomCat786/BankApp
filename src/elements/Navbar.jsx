@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
-import "./Navbar.css"
+import "./Navbar.css";
 
 export default function Navbar() {
     
@@ -8,10 +8,12 @@ export default function Navbar() {
         <header className="navbar">
             <nav className="nav-container">
                 <div className="nav-logo">
-                    <Link to="/">Home</Link>
+                    <Link to="/"><img src="../logo_nobg.png" width="50px" height="50px"></img></Link>
                 </div>
                 <ul className="right-nav">
-                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/">About</Link></li>
+                    <li><Link to="/">Calculator</Link></li>
+                    <li><Link to="/">Login</Link></li>
                 </ul>
             </nav>
         </header>

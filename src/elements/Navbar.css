@@ -14,12 +14,11 @@
     font-size: 24px;
     font-weight: bold;
     color: #333;
-    border: 2px solid rgb(255, 223, 81);
-    border-radius: 5px;
     padding: 5px 10px;
 }
 
 .right-nav {
+    position: relative;
     float: right;
     font-size: 18px;
     color: #333;
